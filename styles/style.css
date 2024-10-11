@@ -19,8 +19,41 @@
 
 .Contact{
     margin-right: 60px;
+    border-radius: 8px;
+        padding: 15px 24px 15px 24px;
 }
 
 .future{
     text-align: center;
+}
+
+
+/* main section */
+.whyweb{
+    margin-left: 100px;
+}
+
+.web{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+    width: 1140px;
+}
+
+.chap1 , .chap2 , .chap3{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+height: 240px;
+margin-bottom: 70px;
+margin-left: 100px;
+}
+
+.h6-primary{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-weight: 400;
+
+/* letter-spacing: 0%; */
+/* text-align: left; */
 }
