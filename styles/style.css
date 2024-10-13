@@ -31,6 +31,10 @@
 /* main section */
 .whyweb{
     margin-left: 100px;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: rgba(13, 19, 33, 0.02);
 }
 
 .web{
@@ -54,6 +58,73 @@ margin-left: 100px;
 font-family: Azeret Mono;
 font-weight: 400;
 
-/* letter-spacing: 0%; */
-/* text-align: left; */
+}
+
+.inspiration{
+    text-align: center;
+}
+
+.cart{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    width: 1000px;
+    /* align-items: center; */
+    margin-left: 100px;
+}
+
+.cart1{
+    background-color: rgba(255, 76, 30, 0.05);
+    /* align-items: center; */
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.cart2{
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.cart3{
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.footer{
+    background-image: url(../assets/handshake.jpg) ;
+    width: 1140px;
+height: 100%;
+background-size: cover;
+background-position: center;
+left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 180px;
+margin-left: 100px;
+border-radius: 16px;
+
+}
+
+.footer2{
+    margin: 30px 0px 30px 330px;
+    padding: 60px;
+}
+
+.box , .submit{
+    padding: 6px 20px 6px 20px;
+    gap: 10;
+    border-radius: 8px;
+}
+
+.Awlad{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding-left: 50px;
+    
 }
